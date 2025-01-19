@@ -5,8 +5,8 @@ import google.generativeai as genai
 from langchain_groq import ChatGroq
 from groq import Groq
 
-# Load environment variables from .env
-load_dotenv()
+
+
 
 # Retrieve API keys from environment variables
 GOOGLE_API_KEY=os.getenv("GEMINI_API_KEY")
