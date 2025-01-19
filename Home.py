@@ -7,6 +7,7 @@ from groq import Groq
 
 
 
+load_dotenv()
 
 # Retrieve API keys from environment variables
 GOOGLE_API_KEY=os.getenv("GEMINI_API_KEY")
